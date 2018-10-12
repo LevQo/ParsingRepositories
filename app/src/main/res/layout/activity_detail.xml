@@ -16,6 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="10dp"
             android:text="Заголовок"
             android:textColor="@android:color/black"
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/link"
             android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="5dp"
             android:text="Описание"
             android:textColor="@android:color/black"
@@ -39,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/detail_title"
             android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="5dp"
             android:text="Ссылка" />
     </RelativeLayout>

@@ -9,6 +9,10 @@ import com.google.gson.annotations.SerializedName;
 
 public class Item {
 
+    @SerializedName("id")
+    @Expose
+    private String id;
+
     @SerializedName("name")
     @Expose
     private String name;
@@ -25,11 +29,19 @@ public class Item {
     @Expose
     private String full_name;
 
-    public Item(String name, String html_url,String description, String full_name){
+    public Item(String id, String name, String html_url,String description, String full_name){
         this.name = name;
         this.html_url = html_url;
         this.description = description;
         this.full_name = full_name;
+    }
+
+    public String getId(){
+        return id;
+    }
+
+    public void setId(String id){
+        this.id = id;
     }
 
     public String getName(){

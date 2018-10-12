@@ -30,5 +30,4 @@ public class DetailActivity extends AppCompatActivity {
         detailDescription.setText(description);
         detailLink.setText(link);
     }
-
 }
